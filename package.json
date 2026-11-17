@@ -1,0 +1,33 @@
+{
+  "name": "rupee-format",
+  "version": "0.1.0",
+  "description": "Indian financial formatting and GST calculation utilities for JavaScript and TypeScript.",
+  "license": "MIT",
+  "homepage": "https://github.com/itsmeyash0091-design/NPM-PACKAGE#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmeyash0091-design/NPM-PACKAGE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsmeyash0091-design/NPM-PACKAGE/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": ["india", "indian", "inr", "rupee", "currency", "gst", "formatting"],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "engines": { "node": ">=18" }
+}
