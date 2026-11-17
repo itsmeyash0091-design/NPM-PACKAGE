@@ -1,5 +1,5 @@
 {
-  "name": "rupee-format",
+  "name": "@ved_0091/rupee-format",
   "version": "0.1.0",
   "description": "Indian financial formatting and GST calculation utilities for JavaScript and TypeScript.",
   "license": "MIT",
@@ -23,6 +23,7 @@
     }
   },
   "files": ["dist", "README.md", "LICENSE"],
+  "publishConfig": { "access": "public" },
   "keywords": ["india", "indian", "inr", "rupee", "currency", "gst", "formatting"],
   "scripts": {
     "test": "node --test",

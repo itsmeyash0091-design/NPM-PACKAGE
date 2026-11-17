@@ -1,22 +1,22 @@
-# rupee-format
+# @ved_0091/rupee-format
 
 Small, dependency-free financial utilities for Indian JavaScript applications: INR formatting, lakh/crore grouping, GST calculations, and percentages.
 
 Source code: [itsmeyash0091-design/NPM-PACKAGE](https://github.com/itsmeyash0091-design/NPM-PACKAGE)
 
-> Status: built locally. The npm registry returned **not found** for `rupee-format` on 17 November 2026, but no package has been published.
+> Status: ready to publish as `@ved_0091/rupee-format`. The unscoped name `rupee-format` is unavailable because npm considers it too similar to the existing `rupee_format` package.
 
 ## Install (after you publish)
 
 ```bash
-npm install rupee-format
+npm install @ved_0091/rupee-format
 ```
 
 ## Use it
 
 ```js
 // ESM
-import { formatINR, addGST, splitGST } from 'rupee-format';
+import { formatINR, addGST, splitGST } from '@ved_0091/rupee-format';
 
 formatINR(1234567.8);             // '₹12,34,567.80'
 addGST(1000, 18);                 // { taxableAmount: 1000, gstRate: 18, gstAmount: 180, totalAmount: 1180 }
@@ -25,7 +25,7 @@ splitGST(180, 18);                // { cgstAmount: 90, sgstAmount: 90, cgstRate:
 
 ```js
 // CommonJS
-const { formatINR } = require('rupee-format');
+const { formatINR } = require('@ved_0091/rupee-format');
 formatINR(50000);                 // '₹50,000.00'
 ```
 
