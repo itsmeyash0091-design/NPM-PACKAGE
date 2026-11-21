@@ -2,7 +2,7 @@
 
 Small, dependency-free financial utilities for Indian JavaScript applications: INR formatting, lakh/crore grouping, GST calculations, and percentages.
 
-Source code: [itsmeyash0091-design/NPM-PACKAGE](https://github.com/itsmeyash0091-design/NPM-PACKAGE)
+Source code: [itsmeyash0091-design/NPM-PACKAGE]([https://github.com/itsmeyash0091-design/NPM-PACKAGE](https://www.npmjs.com/package/@ved_0091/rupee-format))
 
 > Status: ready to publish as `@ved_0091/rupee-format`. The unscoped name `rupee-format` is unavailable because npm considers it too similar to the existing `rupee_format` package.
 
